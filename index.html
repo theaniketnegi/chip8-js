@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><h1>chip-8 emulator</h1></header>
+
+    <main>
+        <div class="main">
+            <div class="screen">
+                <p class='speed'></p>
+                <canvas></canvas>
+            </div>
+            <div class="rom">
+                <div class="rom-selection">
+                    <select>
+                        <option>tetris</option>
+                        <option>invaders</option>
+                        <option>pong</option>
+                    </select>
+                </div>
+                <div class="controls">
+                    <p>controls</p>
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="save">save state</button>
+                <button class="load">load state</button>
+            </div>
+        </div>
+        <footer>made by aniket negi</footer>
+        <script type="module" src="./scripts/chip8.js"></script>
+    </main>
+</body>
+
+</html>

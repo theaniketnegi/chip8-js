@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+    --bg-color: #000;
+    --fg-color: #0f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--fg-color);
+}
+header, .screen{
+    text-align: center;
+    font-size: 1rem;
+}
+.main{
+    margin-top: 10em;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul, header, .screen{
+    margin-top: .75em;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.rom{
+    display: flex;
+    flex-direction: column;
+}
+select, button{
+    border: 2px solid var(--fg-color);
+    padding: .5em 1em;
+}
+.controls{
+    margin-top: 3em;
+    font-size: 1rem;
+}
+canvas{
+    margin-top: 1em;
+    border: 2px solid var(--fg-color);
+}
+
+.buttons{
+    margin-top: 1.5em;
+}
+
+button{
+    cursor:pointer;
+}
+
+button:hover, button:active{
+    color:black;
+    background-color: var(--fg-color);
+}
+
+
+footer{
+    margin-top: 10em;
+    text-align: center;
+}
+@media (max-width: 980px){
+    .main{
+        margin-top: 5em;
+        width: 80%;
+        margin: 5em auto;
+        display:block;
+    }
+    .screen{   
+        text-align: center;
+    }
+    .controls{
+        margin-top: 1em;
+    }
+}

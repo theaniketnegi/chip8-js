@@ -5,8 +5,9 @@ A chip-8 emulator built using JS
 
 ## Demo
 
-<img src = "https://i.imgur.com/M68ZQDr.png">
+[Live Demo](https://theaniketnegi.github.io/chip8-js)
 
+![image](https://user-images.githubusercontent.com/49506854/224017419-c0b6b906-5a97-488f-80b4-b5f8370a9d14.png)
 
 ## Run Locally
 

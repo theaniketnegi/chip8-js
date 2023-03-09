@@ -68,13 +68,13 @@ function setInstructions() {
   const list = document.querySelector("ul");
   list.innerHTML=''
   switch (romName) {
-    case "tetris":
+    case "TETRIS":
       list.innerHTML+=`<li>q - rotate block</li><li>w - move left</li><li>e - move right</li>`
       break
-    case "invaders":  
+    case "INVADERS":  
       list.innerHTML+=`<li>q - move left</li><li>w - start/shoot</li><li>e - move right</li>`
       break
-    case "pong":
+    case "PONG":
       list.innerHTML+=`<li>1 - move up (left)</li><li>q - move down(left)</li><li>4 - move up (right)</li><li>q - move down(right)</li>`
       break 
   }

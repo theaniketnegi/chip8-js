@@ -18,7 +18,7 @@ const speedText = document.querySelector(".speed");
 const saveBtn = document.querySelector(".save");
 const loadBtn = document.querySelector(".load");
 const selectChoice = document.querySelector("select");
-let romName = "tetris";
+let romName = "TETRIS";
 
 function init() {
   fpsInterval = 1000 / fps;
